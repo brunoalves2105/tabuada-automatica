@@ -23,10 +23,19 @@ footer {
     font-style: italic;
 }
 
-#res {
-    text-align: center;
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 li {
     list-style: none;
+}
+
+#res {
+    text-align: center;
 }
