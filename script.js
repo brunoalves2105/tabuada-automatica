@@ -8,9 +8,7 @@ function tabuada(){
     var t = Number(tab.value)
     res.innerHTML = ''
     for(var c = 1; c <= 10; c++){
-        var item = document.createElement('option')
-        item.text = `${t} x ${c} = ${t*c}`
-        res.appendChild(item)
+        res.innerHTML += `<li>${t} x ${c} = ${t * c}</li>`
     }
 }
 }

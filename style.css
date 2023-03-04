@@ -23,6 +23,10 @@ footer {
     font-style: italic;
 }
 
-.res {
+#res {
     text-align: center;
+}
+
+li {
+    list-style: none;
 }
